@@ -15,7 +15,7 @@ np.array(my_mat)
 # numpy creating Arrays
 np.arange(0,10)
 
-
+# Vector Arr examples
 np.zeros(3)
 np.ones(5)
 
@@ -25,3 +25,11 @@ np.zeros((5,5))
 # range 1st & 2nd arg
 # third is number of points desired
 np.linspace(0,5,10)
+
+# Identity Matrix
+np.eye(4)
+
+# Reshape
+# you can reshape an array
+# the number of elements must match new shape.
+arr.reshape(5,5)
